@@ -1,0 +1,45 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+
+.navbar {
+  height: 100px;
+
+  @include tablet {
+  }
+
+  @include desktop {
+  }
+
+  &__wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+
+    height: 100%;
+
+    @include tablet {
+    }
+
+    @include desktop {
+      max-width: 1336px;
+      justify-content: left;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__github {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &__linkedin {
+    width: 5rem;
+    height: 5rem;
+  }
+}
