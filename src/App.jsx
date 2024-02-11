@@ -7,12 +7,12 @@ const App = () => {
   return (
     <>
       <div>
-        <section>
+        <section className="aboutme" id="Home">
           <Navbar />
         </section>
-        <section>Skills</section>
-        <section>My Projects</section>
-        <section>Get In Touch With Me</section>
+        <section id="About Me">About Me</section>
+        <section id="My Projects">My Projects</section>
+        <section id="Get In Touch">Get In Touch!</section>
       </div>
       {/* <Test /> */}
       {/* <Test /> */}

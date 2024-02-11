@@ -13,6 +13,7 @@ const variants = {
     },
   },
   closed: {
+    clipPath: "circle(0.1px at 0.11px 0.1px)",
     transition: {
       delay: 0.5,
       type: "spring",
