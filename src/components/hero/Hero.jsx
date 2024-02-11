@@ -31,6 +31,14 @@ const Hero = () => {
     <div className="hero">
       <Sidebar />
       <div className="hero__wrapper">
+        <img
+          className="hero__yellowarrow"
+          src="src/assets/yellowarrow.svg"
+        ></img>
+        <img
+          className="hero__yellowcorner"
+          src="src/assets/yellowcorner.svg"
+        ></img>
         <motion.div
           className="hero__textcontainer"
           variants={textVariants}
@@ -53,17 +61,22 @@ const Hero = () => {
             ></motion.img>
             <motion.h3 className="hero__h3" variants={textVariants}>
               I am a recent graduate of Brainstation’s Software Engineering
-              Bootcamp in Dec 2023 and hope to pursue in a career in coding!
+              Bootcamp in Dec 2023 aiming to pursue in a career in coding!
             </motion.h3>
           </motion.div>
         </motion.div>
+        <img className="hero__whitebox" src="src/assets/whitebox.svg"></img>
         <div className="hero__imagecontainer">
+          <img className="hero__yellowx" src="src/assets/yellowx.svg"></img>
+          <img className="hero__bluex" src="src/assets/bluex.svg"></img>
+
           <img
             className="hero__headshot"
             src="/src/assets/headshot.png"
             alt=""
           ></img>
         </div>
+        <img className="hero__bluearrow" src="src/assets/bluearrow.svg"></img>
       </div>
     </div>
   );
