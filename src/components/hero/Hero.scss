@@ -1,0 +1,111 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+
+.hero {
+  @include tablet {
+    height: calc(100vh - 100px);
+    position: relative;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+
+    @include tablet {
+      max-width: 1366px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-between;
+      margin-top: -1rem;
+    }
+  }
+
+  &__textcontainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+
+  &__imagecontainer {
+    margin: auto;
+    margin-top: 10rem;
+    margin-right: 4rem;
+    @include tablet {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-top: -2rem;
+    }
+  }
+
+  &__scroll {
+    display: none;
+    @include tablet {
+      display: flex;
+      width: 65px;
+      height: 70px;
+    }
+  }
+
+  &__slogan {
+    @include tablet {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      justify-content: space-evenly;
+    }
+  }
+
+  &__headshot {
+    width: 225px;
+    height: 225px;
+    @include tablet {
+      width: 450px;
+      height: 450px;
+    }
+  }
+
+  &__h1 {
+    @include tablet {
+      font-size: 50px;
+      color: #ffffff;
+      font-weight: 600;
+    }
+  }
+
+  &__h2 {
+    @include tablet {
+      font-size: 45px;
+      color: #ffffff;
+      letter-spacing: 5px;
+    }
+  }
+
+  &__h3 {
+    @include tablet {
+      color: #ffffff;
+      text-align: right;
+      width: 45rem;
+      margin-left: 8rem;
+      margin-top: 5rem;
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+}
