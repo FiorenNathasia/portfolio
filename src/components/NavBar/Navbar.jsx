@@ -1,4 +1,3 @@
-import Sidebar from "/src/components/sidebar/Sidebar";
 import "./Navbar.scss";
 import { motion } from "framer-motion";
 const Navbar = () => (
@@ -9,9 +8,9 @@ const Navbar = () => (
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        Fioren Nathasia
+        <div className="navbar__temp">Fioren Nathasia</div>
       </motion.span>
-      {/* <Sidebar /> */}
+
       <div className="navbar__socials">
         <a href="#">
           <img src="" alt="" />

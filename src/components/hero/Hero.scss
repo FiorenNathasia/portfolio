@@ -23,6 +23,7 @@
       align-content: center;
       justify-content: space-between;
       margin-top: -1rem;
+      z-index: 2;
     }
   }
 
@@ -79,10 +80,12 @@
   &__headshot {
     width: 225px;
     height: 225px;
+
     @include tablet {
       width: 450px;
       height: 450px;
       position: relative;
+      z-index: 2;
     }
   }
 
@@ -131,7 +134,7 @@
       width: 290.31px;
       position: absolute;
       left: 0px;
-      top: 399px;
+      bottom: 0;
     }
   }
   &__yellowx {
@@ -146,13 +149,15 @@
   }
 
   &__bluex {
-    display: none;
+    position: absolute;
+    z-index: 0;
+    width: 150px;
+    bottom: 5.5rem;
     @include tablet {
       display: flex;
-      width: 190px;
-      position: absolute;
-      right: 3rem;
-      bottom: 0.9rem;
+      width: 325px;
+      left: 10rem;
+      bottom: -2.7rem;
     }
   }
 
@@ -170,11 +175,24 @@
   &__whitebox {
     display: none;
     @include tablet {
+      position: absolute;
       display: flex;
       width: 940px;
-      position: absolute;
-      right: -6.1rem;
-      bottom: -7.9rem;
+      right: -1.5rem;
+      bottom: -5.8rem;
+      z-index: 1;
+    }
+  }
+
+  &__whitebox-mobile {
+    position: absolute;
+    display: flex;
+    width: 940px;
+    right: -1.5rem;
+    bottom: -5.8rem;
+    z-index: 1;
+    @include tablet {
+      display: none;
     }
   }
 }

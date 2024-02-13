@@ -66,6 +66,10 @@ const Hero = () => {
           </motion.div>
         </motion.div>
         <img className="hero__whitebox" src="src/assets/whitebox.svg"></img>
+        <img
+          className="hero__whitebox-mobile"
+          src="src/assets/whiteboxcopy.svg"
+        ></img>
         <div className="hero__imagecontainer">
           <img className="hero__yellowx" src="src/assets/yellowx.svg"></img>
           <img className="hero__bluex" src="src/assets/bluex.svg"></img>
