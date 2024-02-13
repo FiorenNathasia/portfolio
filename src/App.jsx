@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <div>
-        <section className="aboutme" id="/">
+        <section className="aboutme" id="Home">
           <Navbar />
           <Hero />
         </section>

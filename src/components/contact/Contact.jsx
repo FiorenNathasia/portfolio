@@ -60,17 +60,37 @@ const Contact = () => {
         <div className="contact__formcontainer">
           <form ref={formRef} onSubmit={sendEmail}>
             <div className="contact__info">
-              <input type="text" required placeholder="Name" name="name" />
-              <input type="email" required placeholder="Email" name="name" />
+              <div className="contact__name">
+                <p>Your Name</p>
+                <input
+                  type="text"
+                  required
+                  placeholder="Enter your name"
+                  name="name"
+                />
+              </div>
+              <div className="contact__email">
+                <p>Your Email</p>
+                <input
+                  type="email"
+                  required
+                  placeholder="Enter your email address"
+                  name="name"
+                />
+              </div>
             </div>
+            <p>Your Message</p>
             <textarea
               id=""
               cols="30"
               rows={8}
-              placeholder="message"
+              placeholder="Enter your message"
               name="message"
             ></textarea>
-            <button>Send</button>
+            <button>
+              <span>Send</span>
+              <img src="/src/assets/rightarrow.svg" />
+            </button>
             {error && "Error"}
             {success && "You're message has been sent!"}
           </form>
