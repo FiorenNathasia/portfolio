@@ -2,24 +2,33 @@
 @use "../../partials/variables" as *;
 
 .contact {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
   @include tablet {
     height: 100%;
     max-width: 85.375rem;
-    margin: auto;
     display: flex;
     align-items: center;
-    flex-direction: column;
   }
 
   &__textcontainer {
     @include tablet {
-      flex: 1;
     }
   }
 
   &__formcontainer {
     @include tablet {
-      flex: 1;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
     }
   }
 }

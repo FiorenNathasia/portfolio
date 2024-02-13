@@ -61,7 +61,7 @@ const Hero = () => {
             ></motion.img>
             <motion.h3 className="hero__h3" variants={textVariants}>
               I am a recent graduate of Brainstation’s Software Engineering
-              Bootcamp in Dec 2023 aiming to pursue in a career in coding!
+              Bootcamp in Dec 2023 aiming to pursue a career in coding!
             </motion.h3>
           </motion.div>
         </motion.div>
