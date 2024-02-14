@@ -15,16 +15,21 @@
   }
 
   &__textcontainer {
+    color: #3e17cb;
+    margin-top: 3.5rem;
     @include tablet {
       display: flex;
       flex-direction: column;
       margin-top: 6.5rem;
       gap: 20px;
-      color: #3e17cb;
     }
   }
 
+  &__animation {
+    width: 100px;
+  }
   &__formcontainer {
+    margin-top: 2rem;
     @include tablet {
       margin-top: 6rem;
     }
@@ -41,6 +46,7 @@
   }
 
   &__title {
+    font-size: 45px;
     @include tablet {
       margin: auto;
       font-size: 100px;
@@ -48,15 +54,51 @@
   }
 
   &__slogan {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 1rem;
+
     @include tablet {
       width: 900px;
+      font-size: 25px;
       text-align: center;
+    }
+  }
+
+  &__label-name {
+    font-size: 15px;
+    @include tablet {
+    }
+  }
+  &__label-email {
+    font-size: 15px;
+    margin-top: 2rem;
+    @include tablet {
+      margin-top: 0;
+    }
+  }
+  &__label-message {
+    font-size: 15px;
+    @include tablet {
+    }
+  }
+
+  &__arrow {
+    width: 6rem;
+    margin-left: -1rem;
+    @include tablet {
+    }
+  }
+
+  &__send {
+    color: #3e17cb;
+    @include tablet {
     }
   }
 }
 
 input {
-  padding: 1.25rem;
+  padding: 1.25rem 0;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #3e17cb;
@@ -66,9 +108,8 @@ input {
   }
 }
 textarea {
-  height: 5rem;
-  padding: 1.25rem;
-  height: 5rem;
+  height: 3rem;
+  padding: 1.25rem 0;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #3e17cb;
@@ -89,7 +130,7 @@ form {
 }
 
 button {
-  padding: 10px;
+  padding: 10px 0 10px 40px;
   width: 150px;
   border: 1px solid #3e17cb;
   background-color: transparent;
@@ -98,7 +139,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 5rem;
+  height: 3rem;
 
   @include tablet {
     padding: 20px;

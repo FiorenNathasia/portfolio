@@ -61,7 +61,7 @@ const Contact = () => {
           <form ref={formRef} onSubmit={sendEmail}>
             <div className="contact__info">
               <div className="contact__name">
-                <p>Your Name</p>
+                <p className="contact__label-name">Your Name</p>
                 <input
                   type="text"
                   required
@@ -70,16 +70,16 @@ const Contact = () => {
                 />
               </div>
               <div className="contact__email">
-                <p>Your Email</p>
+                <p className="contact__label-email">Your Email</p>
                 <input
                   type="email"
                   required
-                  placeholder="Enter your email address"
+                  placeholder="Enter your email"
                   name="name"
                 />
               </div>
             </div>
-            <p>Your Message</p>
+            <p className="contact__label-message">Your Message</p>
             <textarea
               id=""
               cols="30"
@@ -88,8 +88,11 @@ const Contact = () => {
               name="message"
             ></textarea>
             <button>
-              <span>Send</span>
-              <img src="/src/assets/rightarrow.svg" />
+              <span className="contact__send">Send</span>
+              <img
+                src="/src/assets/rightarrow.svg"
+                className="contact__arrow"
+              />
             </button>
             {error && "Error"}
             {success && "You're message has been sent!"}
