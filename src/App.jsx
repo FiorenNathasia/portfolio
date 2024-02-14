@@ -1,5 +1,6 @@
 import "./App.scss";
 import About from "./components/About/About";
+
 import Navbar from "./components/NavBar/Navbar";
 import Test from "./components/Test";
 import Contact from "./components/contact/Contact";
