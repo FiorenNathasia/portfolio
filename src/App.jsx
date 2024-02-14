@@ -1,4 +1,5 @@
 import "./App.scss";
+import About from "./components/About/About";
 import Navbar from "./components/NavBar/Navbar";
 import Test from "./components/Test";
 import Contact from "./components/contact/Contact";
@@ -11,8 +12,8 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section id="About Me" className="temporary">
-        About Me
+      <section id="About Me" className="aboutme">
+        <About />
       </section>
       <section id="My Projects" className="temporary">
         My Projects
