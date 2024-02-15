@@ -2,19 +2,17 @@
 @use "../../partials/variables" as *;
 
 .techstack {
-  color: white;
-  background-color: aqua;
-  width: 30%;
-
+  display: none;
   @include desktop {
     height: calc(100vh - 85vh);
     width: 30%;
     display: flex;
     align-items: center;
     position: relative;
-    bottom: -18rem;
+    bottom: -15rem;
     overflow: hidden;
     margin-left: 64rem;
+    margin-top: -9rem;
   }
 
   &__list {

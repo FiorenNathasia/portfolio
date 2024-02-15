@@ -2,15 +2,32 @@
 @use "../../partials/variables" as *;
 
 .about {
+  &__container {
+  }
   &__text {
-    width: 35%;
-    max-height: 90%;
-    position: relative;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-top: 3.5rem;
+    gap: 20px;
+
+    @include tablet {
+      width: 35%;
+      max-height: 90%;
+      margin-left: 16.5rem;
+      padding-top: 6.5rem;
+    }
   }
 
   &__title {
-    font-size: 53px;
-    color: black;
+    font-size: 40px;
+    color: #3e17cb;
     font-weight: 400;
+
+    @include tablet {
+      font-size: 100px;
+    }
   }
 }

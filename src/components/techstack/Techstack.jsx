@@ -29,6 +29,7 @@ const Techstack = () => {
               <Techcard techName="Git" techLogo={git} />
               <Techcard techName="Jira" techLogo={jira} />
               <Techcard techName="Vscode" techLogo={vscode} />
+
               <Techcard techName="Sass" techLogo={sass} />
               <Techcard techName="BEM" techLogo={bem} />
               <Techcard techName="Express.js" techLogo={express} />
