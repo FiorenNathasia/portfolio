@@ -2,32 +2,30 @@
 @use "../../partials/variables" as *;
 
 .techstack {
-  display: none;
+  margin-top: 1.5rem;
   @include desktop {
     height: calc(100vh - 85vh);
-    width: 30%;
+    width: 35%;
     display: flex;
     align-items: center;
     position: relative;
     bottom: -15rem;
+    margin-left: 62rem;
+    margin-top: -10rem;
     overflow: hidden;
-    margin-left: 64rem;
-    margin-top: -9rem;
   }
 
   &__list {
     display: flex;
     justify-content: flex-start;
-    width: 30%;
-    animation: marquee-animation 20s linear infinite;
   }
 }
 
 @keyframes marquee-animation {
-  0% {
+  from {
     transform: translateX(0%);
   }
-  100% {
-    transform: translateX(-100%);
+  to {
+    transform: translateX(calc(-50% - 0.5rem));
   }
 }

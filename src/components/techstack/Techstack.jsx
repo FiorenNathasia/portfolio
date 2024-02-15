@@ -17,7 +17,7 @@ const Techstack = () => {
         <div className="techstack__container">
           <Marquee
             pauseOnHover={true}
-            speed={80}
+            speed={90}
             className="techstack__marquee"
           >
             <ul className="techstack__list">
@@ -29,7 +29,6 @@ const Techstack = () => {
               <Techcard techName="Git" techLogo={git} />
               <Techcard techName="Jira" techLogo={jira} />
               <Techcard techName="Vscode" techLogo={vscode} />
-
               <Techcard techName="Sass" techLogo={sass} />
               <Techcard techName="BEM" techLogo={bem} />
               <Techcard techName="Express.js" techLogo={express} />
@@ -37,6 +36,7 @@ const Techstack = () => {
               <Techcard techName="Knex.js" techLogo={knex} />
               <Techcard techName="Git" techLogo={git} />
               <Techcard techName="Jira" techLogo={jira} />
+              <Techcard techName="Vscode" techLogo={vscode} />
             </ul>
           </Marquee>
         </div>
