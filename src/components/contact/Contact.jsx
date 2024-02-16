@@ -90,7 +90,7 @@ const Contact = () => {
             <button>
               <span className="contact__send">Send</span>
               <img
-                src="/src/assets/rightarrow.svg"
+                src="/src/assets/decorations/rightarrow.svg"
                 className="contact__arrow"
               />
             </button>

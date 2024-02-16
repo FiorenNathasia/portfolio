@@ -1,0 +1,35 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+
+.projects {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+
+  &__arrow-left {
+    // position: absolute;
+    // top: 50%;
+    // left: 32px;
+    // z-index: 4;
+    // cursor: pointer;
+    // user-select: none;
+  }
+
+  &__arrow-right {
+    // position: absolute;
+    // top: 50%;
+    // right: 32px;
+    // z-index: 4;
+    // cursor: pointer;
+    // user-select: none;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+  }
+}

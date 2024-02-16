@@ -31,12 +31,12 @@ section {
 .homepage {
   height: 120vh;
   width: 100%;
-  background-image: url(/src/assets/backgroundcopy.svg);
+  background-image: url(/src/assets/decorations/backgroundcopy.svg);
   background-position: top;
   background-size: 100%;
 
   @include tablet {
-    background-image: url(/src/assets/background.svg);
+    background-image: url(/src/assets/decorations/background.svg);
     background-position: center;
     background-size: 100%;
     height: 100vh;

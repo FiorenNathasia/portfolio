@@ -33,11 +33,11 @@ const Hero = () => {
       <div className="hero__wrapper">
         <img
           className="hero__yellowarrow"
-          src="src/assets/yellowarrow.svg"
+          src="src/assets/decorations/yellowarrow.svg"
         ></img>
         <img
           className="hero__yellowcorner"
-          src="src/assets/yellowcorner.svg"
+          src="src/assets/decorations/yellowcorner.svg"
         ></img>
         <motion.div
           className="hero__textcontainer"
@@ -55,7 +55,7 @@ const Hero = () => {
           <motion.div className="hero__slogan" variants={textVariants}>
             <motion.img
               className="hero__scroll"
-              src="src/assets/scroll.png"
+              src="src/assets/decorations/scroll.png"
               variants={textVariants}
               animate="scrollButton"
             ></motion.img>
@@ -65,14 +65,23 @@ const Hero = () => {
             </motion.h3>
           </motion.div>
         </motion.div>
-        <img className="hero__whitebox" src="src/assets/whitebox.svg"></img>
+        <img
+          className="hero__whitebox"
+          src="src/assets/decorations/whitebox.svg"
+        ></img>
         {/* <img
           className="hero__whitebox-mobile"
           src="src/assets/whiteboxcopy.svg"
         ></img> */}
         <div className="hero__imagecontainer">
-          <img className="hero__yellowx" src="src/assets/yellowx.svg"></img>
-          <img className="hero__bluex" src="src/assets/bluex.svg"></img>
+          <img
+            className="hero__yellowx"
+            src="src/assets/decorations/yellowx.svg"
+          ></img>
+          <img
+            className="hero__bluex"
+            src="src/assets/decorations/bluex.svg"
+          ></img>
 
           <img
             className="hero__headshot"
@@ -80,7 +89,10 @@ const Hero = () => {
             alt=""
           ></img>
         </div>
-        <img className="hero__bluearrow" src="src/assets/bluearrow.svg"></img>
+        <img
+          className="hero__bluearrow"
+          src="src/assets/decorations/bluearrow.svg"
+        ></img>
       </div>
     </div>
   );
