@@ -2,6 +2,7 @@ import "./Contact.scss";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import rightarrow from "../../assets/icons/rightarrow.svg";
 
 const variants = {
   initial: {
@@ -89,10 +90,7 @@ const Contact = () => {
             ></textarea>
             <button>
               <span className="contact__send">Send</span>
-              <img
-                src="/src/assets/decorations/rightarrow.svg"
-                className="contact__arrow"
-              />
+              <img src={rightarrow} className="contact__arrow" />
             </button>
             {error && "Error"}
             {success && "You're message has been sent!"}
