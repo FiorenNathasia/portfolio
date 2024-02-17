@@ -3,6 +3,7 @@
 
 .techstack {
   margin-top: 1.5rem;
+
   @include desktop {
     height: calc(100vh - 85vh);
     width: 35%;
