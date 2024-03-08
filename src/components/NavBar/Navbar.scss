@@ -2,7 +2,7 @@
 @use "../../partials/variables" as *;
 
 .navbar {
-  height: 100px;
+  height: 6.25rem;
 
   @include tablet {
   }
@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-left: 40px;
+    margin-left: 2.5rem;
     height: 100%;
 
     @include tablet {
@@ -27,14 +27,14 @@
       justify-content: center;
 
       height: 100%;
-      max-width: 1430px;
+      max-width: 89.375rem;
       justify-content: left;
     }
   }
 
   &__socials {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   &__github {
@@ -49,7 +49,7 @@
 
   &__temp {
     color: #fdc75d;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 3rem;
   }
 }

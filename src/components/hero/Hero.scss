@@ -3,7 +3,7 @@
 
 .hero {
   @include tablet {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 6.25rem);
     position: relative;
   }
 
@@ -15,7 +15,7 @@
     margin: auto;
 
     @include tablet {
-      max-width: 1366px;
+      max-width: 85.375rem;
       height: 100%;
       margin: auto;
       display: flex;
@@ -40,7 +40,7 @@
       flex-direction: column;
       align-content: center;
       justify-content: center;
-      gap: 20px;
+      gap: 1.25rem;
       margin-left: 7rem;
     }
   }
@@ -63,15 +63,15 @@
     display: none;
     @include tablet {
       display: flex;
-      width: 65px;
-      height: 70px;
+      width: 4.0625rem;
+      height: 4.375rem;
     }
   }
 
   &__scroll-mobile {
     display: flex;
-    width: 65px;
-    height: 70px;
+    width: 4.0625rem;
+    height: 4.375rem;
     margin-top: 2rem;
     @include tablet {
       display: none;
@@ -89,44 +89,44 @@
   }
 
   &__headshot {
-    width: 225px;
-    height: 225px;
+    width: 14.0625rem;
+    height: 14.0625rem;
     margin-top: -3rem;
     position: relative;
     z-index: 2;
     @include tablet {
       margin-top: 0;
-      width: 450px;
-      height: 450px;
+      width: 28.125rem;
+      height: 28.125rem;
     }
   }
 
   &__h1 {
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-top: 0.5rem;
     color: #ffffff;
     @include tablet {
       margin-top: 0rem;
-      font-size: 40px;
+      font-size: 2.5rem;
 
       font-weight: 600;
     }
   }
 
   &__h2 {
-    font-size: 29px;
+    font-size: 1.8125rem;
     margin-top: 2rem;
     color: #ffffff;
     @include tablet {
       margin-top: 0rem;
-      font-size: 35px;
-      letter-spacing: 5px;
+      font-size: 2.1875rem;
+      letter-spacing: 0.3125rem;
     }
   }
 
   &__h3 {
     width: 15rem;
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-left: 5rem;
     margin-top: -4rem;
     color: #ffffff;
@@ -136,7 +136,7 @@
       width: 50rem;
       margin-left: 8rem;
       margin-top: 5rem;
-      font-size: 20px;
+      font-size: 1.25rem;
     }
   }
 
@@ -144,17 +144,17 @@
     display: none;
     @include tablet {
       display: flex;
-      width: 290.31px;
+      width: 18.1444rem;
       position: absolute;
-      left: 40px;
-      top: -25px;
+      left: 2.5rem;
+      top: -1.5625rem;
     }
   }
   &__yellowcorner {
     display: none;
     @include tablet {
       display: flex;
-      width: 290.31px;
+      width: 18.1444rem;
       position: absolute;
       left: 0px;
       bottom: 0;
@@ -164,9 +164,9 @@
     display: none;
     @include tablet {
       display: flex;
-      width: 190px;
+      width: 11.875rem;
       position: absolute;
-      right: 370px;
+      right: 23.125rem;
       top: 5.5rem;
     }
   }
@@ -174,13 +174,13 @@
   &__bluex {
     position: absolute;
     display: flex;
-    width: 100px;
+    width: 6.25rem;
     right: 5rem;
     bottom: -9rem;
 
     @include tablet {
       display: flex;
-      width: 325px;
+      width: 20.3125rem;
       left: 10rem;
       bottom: -3rem;
     }
@@ -189,13 +189,10 @@
   &__bluecorner {
     position: absolute;
     display: flex;
-    width: 100px;
+    width: 6.25rem;
     left: 2.5rem;
     bottom: 4rem;
     z-index: 1;
-    // width: 150px;
-    // bottom: 4.8rem;
-    // left: 1rem;
     @include tablet {
       display: none;
     }
@@ -203,14 +200,14 @@
 
   &__bluearrow {
     display: flex;
-    width: 110px;
+    width: 6.875rem;
     margin-top: -2.8rem;
     margin-left: -1.8rem;
     rotate: 100deg;
     @include tablet {
       rotate: 0deg;
       display: flex;
-      width: 290.31px;
+      width: 18.1444rem;
       position: absolute;
       right: -4rem;
       bottom: -2rem;
@@ -220,13 +217,13 @@
   &__whitebox {
     position: absolute;
     display: flex;
-    width: 470px;
+    width: 29.375rem;
     right: -2.5rem;
     bottom: -14rem;
     @include tablet {
       position: absolute;
       display: flex;
-      width: 940px;
+      width: 58.75rem;
       right: -1.5rem;
       bottom: -6.2rem;
       z-index: 1;
@@ -236,7 +233,7 @@
   &__whitebox-mobile {
     position: absolute;
     display: flex;
-    width: 940px;
+    width: 58.75rem;
     right: -1.5rem;
     bottom: 8rem;
     z-index: 1;

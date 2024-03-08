@@ -14,28 +14,28 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 350px;
+    width: 21.875rem;
     background: white;
     z-index: 5;
     @include tablet {
-      width: 400px;
+      width: 25rem;
     }
   }
 
   button {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     position: fixed;
-    top: 2.8srem;
+    top: 2.8rem;
     right: 2rem;
     background-color: transparent;
     cursor: pointer;
     border: 0;
     z-index: 6;
     @include tablet {
-      top: 25px;
-      right: 0px;
+      top: 1.5625rem;
+      right: 0;
     }
   }
 }
