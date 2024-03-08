@@ -60,6 +60,7 @@
   }
 
   &__scroll {
+    display: none;
     @include tablet {
       display: flex;
       width: 65px;
@@ -67,7 +68,18 @@
     }
   }
 
+  &__scroll-mobile {
+    display: flex;
+    width: 65px;
+    height: 70px;
+    margin-top: 2rem;
+    @include tablet {
+      display: none;
+    }
+  }
+
   &__slogan {
+    text-align: right;
     @include tablet {
       display: flex;
       flex-direction: row;
@@ -79,40 +91,52 @@
   &__headshot {
     width: 225px;
     height: 225px;
-
+    margin-top: -3rem;
+    position: relative;
+    z-index: 2;
     @include tablet {
+      margin-top: 0;
       width: 450px;
       height: 450px;
-      position: relative;
-      z-index: 2;
     }
   }
 
   &__h1 {
+    font-size: 25px;
+    margin-top: 0.5rem;
+    color: #ffffff;
     @include tablet {
+      margin-top: 0rem;
       font-size: 40px;
-      color: #ffffff;
+
       font-weight: 600;
     }
   }
 
   &__h2 {
+    font-size: 29px;
+    margin-top: 2rem;
+    color: #ffffff;
     @include tablet {
+      margin-top: 0rem;
       font-size: 35px;
-      color: #ffffff;
       letter-spacing: 5px;
     }
   }
 
   &__h3 {
+    width: 15rem;
+    font-size: 15px;
+    margin-left: 5rem;
+    margin-top: -4rem;
+    color: #ffffff;
+    font-weight: 400;
     @include tablet {
-      color: #ffffff;
       text-align: right;
       width: 50rem;
       margin-left: 8rem;
       margin-top: 5rem;
       font-size: 20px;
-      font-weight: 400;
     }
   }
 
@@ -149,20 +173,42 @@
 
   &__bluex {
     position: absolute;
-    z-index: 0;
-    width: 150px;
-    bottom: 5.5rem;
+    display: flex;
+    width: 100px;
+    right: 5rem;
+    bottom: -9rem;
+
     @include tablet {
       display: flex;
       width: 325px;
       left: 10rem;
-      bottom: -2.7rem;
+      bottom: -3rem;
+    }
+  }
+
+  &__bluecorner {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    left: 2.5rem;
+    bottom: 4rem;
+    z-index: 1;
+    // width: 150px;
+    // bottom: 4.8rem;
+    // left: 1rem;
+    @include tablet {
+      display: none;
     }
   }
 
   &__bluearrow {
-    display: none;
+    display: flex;
+    width: 110px;
+    margin-top: -2.8rem;
+    margin-left: -1.8rem;
+    rotate: 100deg;
     @include tablet {
+      rotate: 0deg;
       display: flex;
       width: 290.31px;
       position: absolute;
@@ -172,7 +218,11 @@
   }
 
   &__whitebox {
-    display: none;
+    position: absolute;
+    display: flex;
+    width: 470px;
+    right: -2.5rem;
+    bottom: -14rem;
     @include tablet {
       position: absolute;
       display: flex;
@@ -188,7 +238,7 @@
     display: flex;
     width: 940px;
     right: -1.5rem;
-    bottom: -5.8rem;
+    bottom: 8rem;
     z-index: 1;
     @include tablet {
       display: none;

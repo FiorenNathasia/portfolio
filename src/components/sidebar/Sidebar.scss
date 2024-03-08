@@ -14,9 +14,12 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 400px;
+    width: 350px;
     background: white;
     z-index: 5;
+    @include tablet {
+      width: 400px;
+    }
   }
 
   button {
@@ -24,13 +27,14 @@
     height: 100px;
     border-radius: 50%;
     position: fixed;
-    top: 25px;
-    right: 5px;
+    top: 2.8srem;
+    right: 2rem;
     background-color: transparent;
     cursor: pointer;
     border: 0;
     z-index: 6;
     @include tablet {
+      top: 25px;
       right: 0px;
     }
   }

@@ -46,13 +46,15 @@
   &__text {
     font-size: 10px;
     width: 100%;
-    margin: 40px 0;
-    padding: 0 20px;
+    margin: 10px 0;
+    // padding: 0 20px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
 
     @include tablet {
+      // padding: 0;
+      margin: 22px 0;
       font-size: 15px;
     }
   }
@@ -71,9 +73,54 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    padding: 10px 10px;
 
     @include tablet {
-      width: 50%s;
+      width: 100%;
     }
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 0.65rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.08rem;
+    margin: 0;
+    @include desktop {
+      font-size: 1rem;
+    }
+    &-wrap {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.625rem;
+      border-radius: 0.25rem;
+      border: 3px solid #3e17cb;
+      background: #3e17cb;
+      width: fit-content;
+      @include tablet {
+        padding: 0.1rem;
+      }
+    }
+  }
+
+  &__tech {
+    font-size: 10px;
+    margin-left: 1rem;
+    @include tablet {
+      font-size: 15px;
+    }
+  }
+
+  &__media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__position {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0;
   }
 }

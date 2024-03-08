@@ -8,6 +8,11 @@ import knex from "../../assets/icons/knex.svg";
 import git from "../../assets/icons/git.svg";
 import jira from "../../assets/icons/jira.svg";
 import vscode from "../../assets/icons/vscode.svg";
+import javascript from "../../assets/icons/javascript.svg";
+import node from "../../assets/icons/nodejs.svg";
+import react from "../../assets/icons/react.svg";
+import html from "../../assets/icons/html.svg";
+import css from "../../assets/icons/css.svg";
 import Techcard from "../techcard/Techcard";
 
 const Techstack = () => {
@@ -21,6 +26,11 @@ const Techstack = () => {
             className="techstack__marquee"
           >
             <ul className="techstack__list">
+              <Techcard techName="Javascript" techLogo={javascript} />
+              <Techcard techName="React" techLogo={react} />
+              <Techcard techName="Html" techLogo={html} />
+              <Techcard techName="Css" techLogo={css} />
+              <Techcard techName="Node.js" techLogo={node} />
               <Techcard techName="Sass" techLogo={sass} />
               <Techcard techName="BEM" techLogo={bem} />
               <Techcard techName="Express.js" techLogo={express} />
@@ -29,6 +39,11 @@ const Techstack = () => {
               <Techcard techName="Git" techLogo={git} />
               <Techcard techName="Jira" techLogo={jira} />
               <Techcard techName="Vscode" techLogo={vscode} />
+              <Techcard techName="Javascript" techLogo={javascript} />
+              <Techcard techName="React" techLogo={react} />
+              <Techcard techName="Html" techLogo={html} />
+              <Techcard techName="Css" techLogo={css} />
+              <Techcard techName="Node.js" techLogo={node} />
               <Techcard techName="Sass" techLogo={sass} />
               <Techcard techName="BEM" techLogo={bem} />
               <Techcard techName="Express.js" techLogo={express} />

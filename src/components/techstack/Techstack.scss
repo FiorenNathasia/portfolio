@@ -12,8 +12,16 @@
     position: relative;
     bottom: -15rem;
     margin-left: 62rem;
-    margin-top: -10rem;
+    margin-top: -16rem;
     overflow: hidden;
+  }
+
+  &__logos {
+    display: flex;
+    flex-direction: row;
+    @include tablet {
+      display: none;
+    }
   }
 
   &__list {

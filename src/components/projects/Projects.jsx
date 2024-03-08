@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Projects.scss";
 import thrivevibe from "../../assets/video/ThriveVibeDemo.mp4";
-import loom from "../../assets/video/ThriveVibeLoom.mp4";
-import demo from "../../assets/video/Demo.mp4";
 import Projectscard from "../projectscard/Projectscard";
 import leftarrow from "../../assets/icons/leftarrow.svg";
 import rightarrow from "../../assets/icons/rightarrow.svg";
@@ -18,30 +16,12 @@ const Projects = () => {
       title: "ThriveVibe",
       video: thrivevibe,
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",
+        "ThriveVibe is a dynamic, game-changing platform designed to empower content creators on their journey to achieving quicker and more satisfying results. With the ever-increasing demand for fresh and engaging content, creators need timely, precise feedback to adapt and thrive in the digital landscape. ThriveVibe bridges this gap by offering a unique combination of real-time feedback and connection opportunities.",
       frontend: "HTML5, CSS, SASS, JavaScript, React",
       backend: "NodeJS, Express.JS, Knex, MySql",
       apis: "none",
       githubLink:
         "https://github.com/FiorenNathasia/fioren-nathasia-thrivevibe",
-    },
-    {
-      title: "Loom",
-      video: loom,
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",
-      frontend: "HTML5, CSS, SASS, JavaScript, React",
-      backend: "NodeJS, Express.JS, Knex, MySql",
-      apis: "none",
-    },
-    {
-      title: "Demo",
-      video: demo,
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.",
-      frontend: "HTML5, CSS, SASS, JavaScript, React",
-      backend: "NodeJS, Express.JS, Knex, MySql",
-      apis: "none",
     },
   ];
 

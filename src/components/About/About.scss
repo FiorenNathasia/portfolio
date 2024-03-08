@@ -32,4 +32,24 @@
       font-size: 100px;
     }
   }
+
+  &__paragraph-one {
+    font-size: 10.5px;
+
+    @include tablet {
+      font-size: 15px;
+    }
+  }
+  &__paragraph-two {
+    font-size: 10.5px;
+    @include tablet {
+      font-size: 15px;
+    }
+  }
+  &__paragraph-three {
+    font-size: 10.5px;
+    @include tablet {
+      font-size: 15px;
+    }
+  }
 }

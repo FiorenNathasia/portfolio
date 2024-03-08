@@ -51,6 +51,12 @@ const Hero = () => {
           <motion.h1 className="hero__h1" variants={textVariants}>
             a Full-stack Software Engineer and Web Developer
           </motion.h1>
+          <motion.img
+            className="hero__scroll-mobile"
+            src="src/assets/decorations/scroll.png"
+            variants={textVariants}
+            animate="scrollButton"
+          ></motion.img>
 
           <motion.div className="hero__slogan" variants={textVariants}>
             <motion.img
@@ -69,10 +75,7 @@ const Hero = () => {
           className="hero__whitebox"
           src="src/assets/decorations/whitebox.svg"
         ></img>
-        {/* <img
-          className="hero__whitebox-mobile"
-          src="src/assets/whiteboxcopy.svg"
-        ></img> */}
+
         <div className="hero__imagecontainer">
           <img
             className="hero__yellowx"
@@ -82,7 +85,10 @@ const Hero = () => {
             className="hero__bluex"
             src="src/assets/decorations/bluex.svg"
           ></img>
-
+          <img
+            className="hero__bluecorner"
+            src="src/assets/decorations/bluecorner.svg"
+          ></img>
           <img
             className="hero__headshot"
             src="/src/assets/headshot.png"
