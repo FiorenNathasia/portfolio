@@ -1,5 +1,6 @@
 import "./Projectscard.scss";
 import React, { useState } from "react";
+import code from "../../assets/icons/code.png";
 
 const ProjectsCard = ({ project }) => {
   return (
@@ -8,7 +9,12 @@ const ProjectsCard = ({ project }) => {
         <video className="projectscard__video" src={project.video} controls />
 
         <div className="projectscard__textcontainer">
-          <h1 className="projectscard__title">{project.title}</h1>
+          <div className="projectscard__top">
+            <h1 className="projectscard__title">{project.title}</h1>
+            <a href={project.githubLink}>
+              <img className="projectscard__code" src={code}></img>
+            </a>
+          </div>
           <p className="projectscard__text">{project.description}</p>
           <div className="projectscard__techstack">
             <div className="projectscard__position">

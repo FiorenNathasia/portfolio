@@ -123,4 +123,24 @@
     flex-direction: row;
     margin: 8px 0;
   }
+  &__top {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 6rem;
+    margin-top: -4rem;
+    margin-bottom: 0.625rem;
+  }
+  &__code {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 1rem;
+    margin-left: -1.5rem;
+    @include tablet {
+      width: 2rem;
+      height: 2rem;
+      margin-top: 1.5rem;
+      margin-left: -1.5rem;
+    }
+  }
 }

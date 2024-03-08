@@ -19,7 +19,7 @@ const Projects = () => {
         "ThriveVibe is a dynamic, game-changing platform designed to empower content creators on their journey to achieving quicker and more satisfying results. With the ever-increasing demand for fresh and engaging content, creators need timely, precise feedback to adapt and thrive in the digital landscape. ThriveVibe bridges this gap by offering a unique combination of real-time feedback and connection opportunities.",
       frontend: "HTML5, CSS, SASS, JavaScript, React",
       backend: "NodeJS, Express.JS, Knex, MySql",
-      apis: "none",
+      apis: "None",
       githubLink:
         "https://github.com/FiorenNathasia/fioren-nathasia-thrivevibe",
     },
