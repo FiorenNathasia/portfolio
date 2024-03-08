@@ -46,7 +46,7 @@ const About = () => {
               From my time as a textile designer, I bring skills like a keen eye
               for aesthetics, a focus on user-centered design, and a natural
               understanding of visual appeal. Additionally, the problem-solving
-              skills from my time as a designer align perfectly with the many
+              skills from my time as a designer fit perfectly with the many
               challenges of software engineering, where innovative solutions are
               continuously needed to bring new ideas to life. This comprehensive
               perspective allows me to anticipate and address potential issues,
@@ -55,7 +55,7 @@ const About = () => {
             </p>
             <p className="about__paragraph-three">
               With a solid understanding of coding basics, I am driven by a
-              strong thirst for knowledge and excellence, laying a strong
+              strong desire for knowledge and excellence, laying a strong
               foundation for ongoing growth in the field of software
               engineering. I aim to continuously improve and learn more, fueled
               by the many opportunities and excitement in the tech industry. I
