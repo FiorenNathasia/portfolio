@@ -2,6 +2,7 @@ import "/src/components/sidebar/links/Links.scss";
 import { motion } from "framer-motion";
 import linkedin from "../../../assets/icons/linkedin.png";
 import github from "../../../assets/icons/github-logo.png";
+import resume from "../../../assets/FiorenNathasiaResume.pdf";
 
 const variants = {
   open: {
@@ -60,7 +61,12 @@ const Links = () => {
         whileTap={{ scale: 0.95 }}
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
-        <motion.a href="" variants={itemVariants}>
+        <motion.a
+          href={resume}
+          variants={itemVariants}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           My Resume
         </motion.a>
       </motion.div>

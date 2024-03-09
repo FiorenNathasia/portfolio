@@ -34,7 +34,11 @@
   }
 
   &__email {
-    font-size: 22px;
+    font-size: 18px;
+
+    @include tablet {
+      font-size: 22px;
+    }
   }
 
   &__linkedin {
