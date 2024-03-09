@@ -9,6 +9,7 @@ import bluex from "../../assets/decorations/bluex.svg";
 import bluearrow from "../../assets/decorations/bluearrow.svg";
 import bluecorner from "../../assets/decorations/bluecorner.svg";
 import headshot from "../../assets/headshot.png";
+import scroll from "../../assets/decorations/scroll.png";
 
 const textVariants = {
   initial: {
@@ -63,7 +64,7 @@ const Hero = () => {
           <motion.div className="hero__slogan" variants={textVariants}>
             <motion.img
               className="hero__scroll"
-              src="src/assets/decorations/scroll.png"
+              src={scroll}
               variants={textVariants}
               animate="scrollButton"
             ></motion.img>

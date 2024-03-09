@@ -1,5 +1,7 @@
 import "/src/components/sidebar/links/Links.scss";
 import { motion } from "framer-motion";
+import linkedin from "../../assets/icons/Linkedin-logo-on-transparent--background-PNG.png";
+import github from "../../assets/icons/github-logo.png";
 
 const variants = {
   open: {
@@ -87,7 +89,7 @@ const Links = () => {
           <motion.a href="https://www.linkedin.com/in/fiorennathasia/">
             <motion.img
               className="links__linkedin"
-              src="/src/assets/icons/Linkedin-logo-on-transparent--background-PNG.png"
+              src={linkedin}
               alt="linkedin"
               width="80"
               height="80"
@@ -99,7 +101,7 @@ const Links = () => {
           <motion.a href="https://github.com/FiorenNathasia">
             <motion.img
               className="links__github"
-              src="/src/assets/icons/github-logo.png"
+              src={github}
               alt="linkedin"
               width="70"
               height="70"
