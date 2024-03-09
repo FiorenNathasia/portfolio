@@ -100,7 +100,7 @@
     }
     @include xr {
       margin-top: 1.7rem;
-      margin-right: 0.5rem;
+      margin-right: 0.8rem;
     }
 
     @include promax {
@@ -270,7 +270,8 @@
       bottom: -4.5rem;
     }
     @include xr {
-      right: -1.9rem;
+      right: -1.6rem;
+      bottom: -4.4rem;
     }
 
     @include promax {
