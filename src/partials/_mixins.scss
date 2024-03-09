@@ -1,5 +1,23 @@
 @use "./variables" as *;
 
+@mixin xr {
+  @media screen and (min-width: $xr-breakpoint) {
+    @content;
+  }
+}
+
+@mixin pro {
+  @media screen and (min-width: $pro-breakpoint) {
+    @content;
+  }
+}
+
+@mixin promax {
+  @media screen and (min-width: $promax-breakpoint) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media screen and (min-width: $tablet-breakpoint) {
     @content;

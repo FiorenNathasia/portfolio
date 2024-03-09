@@ -56,7 +56,7 @@ const Hero = () => {
           </motion.h1>
           <motion.img
             className="hero__scroll-mobile"
-            src="src/assets/decorations/scroll.png"
+            src={scroll}
             variants={textVariants}
             animate="scrollButton"
           ></motion.img>

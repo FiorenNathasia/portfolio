@@ -11,6 +11,14 @@
     padding-top: 3.5rem;
     gap: 1.25rem;
 
+    @include xr {
+      padding-top: 4.5rem;
+    }
+
+    @include pro {
+      padding-top: 4rem;
+    }
+
     @include tablet {
       width: 35%;
       max-height: 90%;
@@ -34,18 +42,51 @@
   &__paragraph-one {
     font-size: 0.6563rem;
 
+    @include pro {
+      font-size: 12.5px;
+    }
+    @include xr {
+      font-size: 13.5px;
+    }
+    @include promax {
+      font-size: 14.8px;
+    }
+
     @include tablet {
       font-size: 0.9375rem;
     }
   }
   &__paragraph-two {
     font-size: 0.6563rem;
+
+    @include pro {
+      font-size: 12.5px;
+    }
+    @include xr {
+      font-size: 13.5px;
+    }
+
+    @include promax {
+      font-size: 14.8px;
+    }
+
     @include tablet {
       font-size: 0.9375rem;
     }
   }
   &__paragraph-three {
     font-size: 0.6563rem;
+
+    @include pro {
+      font-size: 12.5px;
+    }
+    @include xr {
+      font-size: 13.5px;
+    }
+    @include promax {
+      font-size: 14.8px;
+    }
+
     @include tablet {
       font-size: 0.9375rem;
     }

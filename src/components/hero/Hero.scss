@@ -94,6 +94,19 @@
     margin-top: -3rem;
     position: relative;
     z-index: 2;
+
+    @include pro {
+      margin-top: -1.5rem;
+    }
+    @include xr {
+      margin-top: 1.7rem;
+      margin-right: 0.5rem;
+    }
+
+    @include promax {
+      margin-top: 2.7rem;
+    }
+
     @include tablet {
       margin-top: 0;
       width: 28.125rem;
@@ -177,6 +190,14 @@
     width: 6.25rem;
     right: 5rem;
     bottom: -9rem;
+    @include pro {
+      width: 8rem;
+      bottom: -0.7rem;
+    }
+    @include xr {
+      width: 7rem;
+      bottom: 0.5rem;
+    }
 
     @include tablet {
       display: flex;
@@ -193,6 +214,14 @@
     left: 2.5rem;
     bottom: 4rem;
     z-index: 1;
+    @include pro {
+      bottom: 13.5rem;
+    }
+    @include xr {
+      bottom: 15rem;
+      left: 3rem;
+    }
+
     @include tablet {
       display: none;
     }
@@ -204,6 +233,16 @@
     margin-top: -2.8rem;
     margin-left: -1.8rem;
     rotate: 100deg;
+    @include pro {
+      margin-top: -2.4rem;
+      margin-left: -1.5rem;
+    }
+
+    @include xr {
+      margin-top: -2.2rem;
+      margin-left: -1.4rem;
+    }
+
     @include tablet {
       rotate: 0deg;
       display: flex;
@@ -220,6 +259,15 @@
     width: 29.375rem;
     right: -2.5rem;
     bottom: -14rem;
+
+    @include pro {
+      bottom: -4.5rem;
+    }
+    @include xr {
+      right: -1.9rem;
+      bottom: -3.2rem;
+    }
+
     @include tablet {
       position: absolute;
       display: flex;

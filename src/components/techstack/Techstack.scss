@@ -4,6 +4,14 @@
 .techstack {
   margin-top: 1.5rem;
 
+  @include pro {
+    margin-top: 3rem;
+  }
+
+  @include xr {
+    margin-top: 2.5rem;
+  }
+
   @include desktop {
     height: calc(100vh - 85vh);
     width: 35%;

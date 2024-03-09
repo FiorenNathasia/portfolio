@@ -35,6 +35,14 @@ section {
   background-position: top;
   background-size: 100%;
 
+  @include xr {
+    height: 100vh;
+  }
+
+  @include pro {
+    height: 100vh;
+  }
+
   @include tablet {
     background-image: url(/src/assets/decorations/background.svg);
     background-position: center;
