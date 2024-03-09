@@ -1,7 +1,7 @@
 import "/src/components/sidebar/links/Links.scss";
 import { motion } from "framer-motion";
-import linkedin from "../../assets/icons/Linkedin-logo-on-transparent--background-PNG.png";
-import github from "../../assets/icons/github-logo.png";
+import linkedin from "../../../assets/icons/linkedin.png";
+import github from "../../../assets/icons/github-logo.png";
 
 const variants = {
   open: {
