@@ -1,6 +1,14 @@
 import "./Hero.scss";
 import { motion } from "framer-motion";
 import Sidebar from "/src/components/sidebar/Sidebar";
+import yellowarrow from "../../assets/decorations/yellowarrow.svg";
+import yellowcorner from "../../assets/decorations/yellowcorner.svg";
+import whitebox from "../../assets/decorations/whitebox.svg";
+import yellowx from "../../assets/decorations/yellowx.svg";
+import bluex from "../../assets/decorations/bluex.svg";
+import bluearrow from "../../assets/decorations/bluearrow.svg";
+import bluecorner from "../../assets/decorations/bluecorner.svg";
+import headshot from "../../assets/headshot.png";
 
 const textVariants = {
   initial: {
@@ -31,14 +39,8 @@ const Hero = () => {
     <div className="hero">
       <Sidebar />
       <div className="hero__wrapper">
-        <img
-          className="hero__yellowarrow"
-          src="src/assets/decorations/yellowarrow.svg"
-        ></img>
-        <img
-          className="hero__yellowcorner"
-          src="src/assets/decorations/yellowcorner.svg"
-        ></img>
+        <img className="hero__yellowarrow" src={yellowarrow}></img>
+        <img className="hero__yellowcorner" src={yellowcorner}></img>
         <motion.div
           className="hero__textcontainer"
           variants={textVariants}
@@ -71,34 +73,15 @@ const Hero = () => {
             </motion.h3>
           </motion.div>
         </motion.div>
-        <img
-          className="hero__whitebox"
-          src="src/assets/decorations/whitebox.svg"
-        ></img>
+        <img className="hero__whitebox" src={whitebox}></img>
 
         <div className="hero__imagecontainer">
-          <img
-            className="hero__yellowx"
-            src="src/assets/decorations/yellowx.svg"
-          ></img>
-          <img
-            className="hero__bluex"
-            src="src/assets/decorations/bluex.svg"
-          ></img>
-          <img
-            className="hero__bluecorner"
-            src="src/assets/decorations/bluecorner.svg"
-          ></img>
-          <img
-            className="hero__headshot"
-            src="/src/assets/headshot.png"
-            alt=""
-          ></img>
+          <img className="hero__yellowx" src={yellowx}></img>
+          <img className="hero__bluex" src={bluex}></img>
+          <img className="hero__bluecorner" src={bluecorner}></img>
+          <img className="hero__headshot" src={headshot}></img>
         </div>
-        <img
-          className="hero__bluearrow"
-          src="src/assets/decorations/bluearrow.svg"
-        ></img>
+        <img className="hero__bluearrow" src={bluearrow}></img>
       </div>
     </div>
   );
