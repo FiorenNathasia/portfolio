@@ -68,7 +68,7 @@ const About = () => {
       </motion.div>
 
       {/* <Cube /> */}
-      <Techstack />
+      {/* <Techstack /> */}
     </div>
   );
 };
