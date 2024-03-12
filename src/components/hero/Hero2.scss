@@ -1,0 +1,144 @@
+@use "../../partials/mixins" as *;
+@use "../../partials/variables" as *;
+
+.hero2 {
+  &__wrapper {
+    // border: 3px solid green;
+    display: flex;
+    position: absolute;
+    transform: translate(0%, 0%);
+    top: 10%;
+    left: 0%;
+
+    @include tablet {
+      top: 35%;
+      left: 15%;
+      width: 60%;
+      max-width: 60rem;
+    }
+  }
+
+  &__textcontainer {
+    // border: 1px solid red;
+    padding: 0 3rem 0 3rem;
+
+    @include tablet {
+      padding: 0;
+    }
+  }
+
+  &__h1 {
+    font-size: 1.5625rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    @include tablet {
+      margin-bottom: 4rem;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+  }
+
+  &__h2 {
+    font-size: 1.8125rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    @include tablet {
+      font-size: 2.1875rem;
+      letter-spacing: 0.3125rem;
+    }
+  }
+
+  &__h3 {
+    font-size: 0.9375rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: right;
+    width: 80%;
+
+    @include tablet {
+      width: 50%;
+    }
+  }
+
+  &__imagecontainer {
+    display: none;
+    position: relative;
+
+    @include tablet {
+      display: block;
+      margin-left: 20rem;
+    }
+  }
+
+  &__headshot {
+    width: 300px;
+    position: absolute;
+    transform: translate(0%, 0%);
+    z-index: 2;
+  }
+
+  &__whitebox {
+    width: 628px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 177px;
+    left: 150px;
+  }
+
+  &__imagecontainer2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__headshot2 {
+    position: absolute;
+    width: 300px;
+    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+  }
+
+  &__whitebox2 {
+    position: absolute;
+    width: 630px;
+    transform: translate(-50%, -50%);
+    top: 27px;
+    left: 2px;
+  }
+
+  &__bluecorner {
+    position: absolute;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    top: -90px;
+    left: -90px;
+  }
+
+  &__yellowcorner {
+    display: none;
+    @include tablet {
+      display: block;
+      width: 18.1444rem;
+      position: absolute;
+      left: 0px;
+      bottom: 0;
+    }
+  }
+
+  &__yellowx {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+    // left: 60%;
+    // top: 30%;
+    z-index: 1;
+    width: 200px;
+  }
+}
