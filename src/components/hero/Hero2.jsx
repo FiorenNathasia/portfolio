@@ -37,14 +37,22 @@ import scroll from "../../assets/decorations/scroll.png";
 
 const Hero2 = () => {
   return (
-    <div>
+    <div className="hero">
+      <Sidebar />
       <div className="hero2__wrapper">
+        <img className="hero2__yellowarrow" src={yellowarrow}></img>
         <div className="hero2__textcontainer">
           <h2 className="hero2__h2">Hi I'm Fioren Nathasia!</h2>
           <h1 className="hero2__h1">
             a Full-stack Software Engineer and Web Developer
           </h1>
-          <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <div className="hero2__slogan">
+            <img
+              className="hero2__scroll"
+              src={scroll}
+              //   variants={textVariants}
+              //   animate="scrollButton"
+            ></img>
             <h3 className="hero2__h3">
               I am a recent graduate of Brainstation’s Software Engineering
               Bootcamp in Dec 2023 aiming to pursue a career in coding!
@@ -52,9 +60,10 @@ const Hero2 = () => {
           </div>
         </div>
         <div className="hero2__imagecontainer">
+          <img className="hero2__yellowx" src={yellowx}></img>
           <img className="hero2__headshot" src={headshot}></img>
           <img className="hero2__whitebox" src={whitebox}></img>
-          <img className="hero2__yellowx" src={yellowx}></img>
+          <img className="hero2__bluex" src={bluex}></img>
         </div>
       </div>
       <div className="hero2__imagecontainer2">
@@ -62,6 +71,7 @@ const Hero2 = () => {
         <img className="hero2__whitebox2" src={whitebox}></img>
         <img className="hero2__bluecorner" src={bluecorner}></img>
       </div>
+      <img className="hero2__bluearrow" src={bluearrow}></img>
       <img className="hero2__yellowcorner" src={yellowcorner}></img>
     </div>
   );

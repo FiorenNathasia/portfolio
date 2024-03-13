@@ -40,52 +40,22 @@
   }
 
   &__paragraph-one {
-    font-size: 0.6563rem;
-
-    @include pro {
-      font-size: 12.5px;
-    }
-    @include xr {
-      font-size: 13.5px;
-    }
-    @include promax {
-      font-size: 14.8px;
-    }
+    font-size: 9.5px;
 
     @include tablet {
       font-size: 0.9375rem;
     }
   }
+
   &__paragraph-two {
-    font-size: 0.6563rem;
-
-    @include pro {
-      font-size: 12.5px;
-    }
-    @include xr {
-      font-size: 13.5px;
-    }
-
-    @include promax {
-      font-size: 14.8px;
-    }
+    font-size: 9.5px;
 
     @include tablet {
       font-size: 0.9375rem;
     }
   }
   &__paragraph-three {
-    font-size: 0.6563rem;
-
-    @include pro {
-      font-size: 12.5px;
-    }
-    @include xr {
-      font-size: 13.5px;
-    }
-    @include promax {
-      font-size: 14.8px;
-    }
+    font-size: 9.5px;
 
     @include tablet {
       font-size: 0.9375rem;
