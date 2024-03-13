@@ -2,13 +2,16 @@
 @use "../../partials/variables" as *;
 
 .projects {
+  height: 100vh;
+
   &__container {
     position: relative;
-    height: 87vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    transform: translate(2.5%, 5%);
     margin: auto;
 
     @include tablet {
@@ -23,13 +26,12 @@
     font-weight: 400;
     text-align: left;
     width: 70%;
-    margin-left: 3rem;
-
+    margin-top: 50px; /* Adjust the value as needed */
+    margin-left: 10%; /* Adjust the value as needed */
     @include tablet {
       font-size: 5rem;
       font-weight: 600;
-      margin-left: 17.5rem;
-      margin-top: 5rem;
+      margin-left: 30%; /* Adjust the value as needed */
     }
   }
   &__arrow-left,
