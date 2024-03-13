@@ -5,7 +5,7 @@ import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
 import Hero2 from "./components/hero/Hero2";
-import Techstack from "./components/techstack/Techstack";
+import Techstackmobile from "./components/techstackmobile/Techstackmobile";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <About />
       </section>
       <section id="Techstack" className="techstack1">
-        <Techstack />
+        <Techstackmobile />
       </section>
       <section id="My Projects" className="temporary">
         <Projects />
