@@ -2,6 +2,8 @@
 @use "../../partials/variables" as *;
 
 .about {
+  &__container {
+  }
   &__text {
     width: 75%;
     margin: auto;
@@ -10,14 +12,6 @@
     font-size: 0.875rem;
     padding-top: 3.5rem;
     gap: 1.25rem;
-
-    @include xr {
-      padding-top: 4.5rem;
-    }
-
-    @include pro {
-      padding-top: 4rem;
-    }
 
     @include tablet {
       width: 35%;
