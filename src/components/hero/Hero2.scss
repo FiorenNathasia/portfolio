@@ -2,8 +2,13 @@
 @use "../../partials/variables" as *;
 
 .hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   &__wrapper {
     display: flex;
+
     position: absolute;
     transform: translate(0%, 10%);
     top: 13%;

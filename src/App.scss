@@ -39,8 +39,17 @@ section {
   }
 }
 
-.techstack {
+.aboutme {
+  position: relative;
+}
+
+.techstack1 {
   height: 10vh;
+  display: flex;
+
+  @include tablet {
+    display: none;
+  }
 }
 
 .temporary {

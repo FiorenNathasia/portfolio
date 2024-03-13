@@ -2,18 +2,10 @@
 @use "../../partials/variables" as *;
 
 .techstack {
-  margin-top: 2rem;
-
   @include desktop {
-    height: calc(100vh - 85vh);
     width: 35%;
     display: flex;
     align-items: center;
-    position: relative;
-    bottom: -15rem;
-    margin-left: 62rem;
-    margin-top: -16rem;
-    overflow: hidden;
   }
 
   &__logos {

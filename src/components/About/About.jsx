@@ -66,7 +66,6 @@ const About = () => {
           </>
         )}
       </motion.div>
-
       <Cube />
       <div className="about__techstack">
         <Techstack />

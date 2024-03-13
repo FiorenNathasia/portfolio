@@ -5,16 +5,15 @@
   &__stagecont {
     display: none;
     @include tablet {
+      display: flex;
       width: 50%;
       height: 100%;
-      top: 0;
-      padding-top: 20%;
-      margin-left: 0;
       position: absolute;
+      top: 0;
+      padding-top: 22%;
+      margin-left: 0;
       right: 1rem;
-      top: 50rem;
-      display: flex;
-      overflow: hidden;
+      top: -11rem;
     }
   }
 }
