@@ -68,7 +68,9 @@ const About = () => {
       </motion.div>
 
       <Cube />
-      <Techstack />
+      <div className="about__techstack">
+        <Techstack />
+      </div>
     </div>
   );
 };

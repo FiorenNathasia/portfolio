@@ -2,8 +2,6 @@
 @use "../../partials/variables" as *;
 
 .projects {
-  height: 100vh;
-
   &__container {
     position: relative;
     height: 100vh;
@@ -11,7 +9,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    transform: translate(2.5%, 5%);
+    transform: translate(2.5%, 0%);
     margin: auto;
 
     @include tablet {
@@ -26,12 +24,13 @@
     font-weight: 400;
     text-align: left;
     width: 70%;
-    margin-top: 50px; /* Adjust the value as needed */
-    margin-left: 10%; /* Adjust the value as needed */
+    margin-top: 170px;
+    margin-left: 10%;
     @include tablet {
       font-size: 5rem;
       font-weight: 600;
-      margin-left: 30%; /* Adjust the value as needed */
+      margin-top: 80px;
+      margin-left: 15%;
     }
   }
   &__arrow-left,

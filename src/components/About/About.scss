@@ -40,7 +40,7 @@
   }
 
   &__paragraph-one {
-    font-size: 9.5px;
+    font-size: 12px;
 
     @include tablet {
       font-size: 0.9375rem;
@@ -48,17 +48,25 @@
   }
 
   &__paragraph-two {
-    font-size: 9.5px;
+    font-size: 12px;
 
     @include tablet {
       font-size: 0.9375rem;
     }
   }
   &__paragraph-three {
-    font-size: 9.5px;
+    font-size: 12px;
 
     @include tablet {
       font-size: 0.9375rem;
+    }
+  }
+
+  &__techstack {
+    display: none;
+
+    @include tablet {
+      display: flex;
     }
   }
 }
