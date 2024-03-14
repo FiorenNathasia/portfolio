@@ -17,9 +17,10 @@
 
   @include tablet {
     flex-direction: row;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
     margin-top: -6rem;
     padding: 1rem;
+    width: 75rem;
   }
 
   &__container {

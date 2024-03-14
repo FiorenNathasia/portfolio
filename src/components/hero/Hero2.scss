@@ -6,19 +6,19 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+
   &__wrapper {
     display: flex;
-
     position: absolute;
     transform: translate(0%, 10%);
     top: 13%;
     left: 0%;
 
     @include tablet {
-      top: 35%;
-      left: 15%;
+      position: relative;
+
       width: 60%;
-      transform: translate(0%, -15%);
+      transform: translate(-10%, 72%);
       max-width: 60rem;
     }
   }

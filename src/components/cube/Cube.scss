@@ -6,14 +6,10 @@
     display: none;
     @include tablet {
       display: flex;
+      position: absolute;
+      transform: translate(75%, 13%);
       width: 50%;
       height: 100%;
-      position: absolute;
-      top: 0;
-      padding-top: 22%;
-      margin-left: 0;
-      right: 1rem;
-      top: -11rem;
     }
   }
 }

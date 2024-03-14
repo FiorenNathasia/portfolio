@@ -2,10 +2,12 @@
 @use "../../partials/variables" as *;
 
 .techstack {
+  display: none;
   @include desktop {
-    width: 35%;
     display: flex;
     align-items: center;
+    width: 100%;
+    margin-top: -17rem;
   }
 
   &__logos {

@@ -46,7 +46,6 @@ section {
 .techstack1 {
   height: 15vh;
   display: flex;
-
   @include tablet {
     display: none;
   }
