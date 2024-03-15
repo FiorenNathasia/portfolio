@@ -21,9 +21,11 @@
     font-weight: 400;
     text-align: left;
     width: 70%;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-left: 10%;
+
     @include tablet {
+      margin-top: 170px;
       font-size: 5rem;
       font-weight: 600;
       margin-left: 5%;

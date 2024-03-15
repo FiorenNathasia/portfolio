@@ -7,16 +7,18 @@
   align-items: center;
   justify-content: center;
   border: none;
-  height: 70vh;
+  height: 68vh;
   width: 85%;
+  padding-top: 1.2rem;
   margin-left: 1.8rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
 
   @include tablet {
     flex-direction: row;
+    padding-top: 0rem;
     margin-left: 3.5rem;
     margin-top: -6rem;
     padding: 1rem;
