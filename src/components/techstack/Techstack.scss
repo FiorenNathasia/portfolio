@@ -19,7 +19,10 @@
       display: none;
     }
   }
-
+  &__container {
+    margin: 0 2.25rem;
+    padding: 2.25rem 0;
+  }
   &__list {
     display: flex;
     justify-content: flex-start;
