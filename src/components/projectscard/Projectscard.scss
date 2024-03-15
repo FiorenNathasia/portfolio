@@ -8,8 +8,8 @@
   justify-content: center;
   border: none;
   height: 70vh;
-  width: 90%;
-  margin-left: 1.3rem;
+  width: 85%;
+  margin-left: 1.8rem;
   margin-top: 2rem;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -52,16 +52,6 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
-    @include pro {
-      font-size: 13px;
-    }
-    @include xr {
-      font-size: 13px;
-    }
-    @include promax {
-      margin: 15px 0;
-      font-size: 14.5px;
-    }
 
     @include tablet {
       // padding: 0;
@@ -74,17 +64,6 @@
     font-size: 20px;
     width: 50%;
     word-wrap: inherit;
-
-    @include pro {
-      font-size: 23px;
-    }
-
-    @include xr {
-      font-size: 23px;
-    }
-    @include promax {
-      font-size: 25px;
-    }
 
     @include tablet {
       font-size: 30px;
@@ -130,16 +109,6 @@
   &__tech {
     font-size: 10px;
     margin-left: 1rem;
-    @include pro {
-      font-size: 12.5px;
-    }
-    @include xr {
-      font-size: 12.5px;
-    }
-
-    @include promax {
-      font-size: 13px;
-    }
 
     @include tablet {
       font-size: 15px;
@@ -169,19 +138,6 @@
     height: 1.2rem;
     margin-top: 1rem;
     margin-left: -1.5rem;
-    @include pro {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-    @include xr {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
-
-    @include promax {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
 
     @include tablet {
       width: 2rem;

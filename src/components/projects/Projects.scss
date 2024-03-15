@@ -5,11 +5,9 @@
   &__container {
     position: relative;
     height: 100vh;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-    // transform: translate(0%, 0%);
     margin: auto;
 
     @include tablet {
@@ -23,12 +21,11 @@
     font-weight: 400;
     text-align: left;
     width: 70%;
-    margin-top: 170px;
+    margin-top: 40%;
     margin-left: 10%;
     @include tablet {
       font-size: 5rem;
       font-weight: 600;
-
       margin-left: 5%;
     }
   }
