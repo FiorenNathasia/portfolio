@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100%;
   @include desktop {
+    display: none;
   }
 
   &__logos {

@@ -4,10 +4,12 @@
 .techstack {
   display: none;
   @include desktop {
+    width: 100%;
     display: flex;
     align-items: center;
-    width: 100%;
-    margin-top: -17rem;
+    margin-top: -16rem;
+    overflow: hidden;
+    margin-left: 29rem;
   }
 
   &__logos {

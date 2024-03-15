@@ -41,13 +41,15 @@ section {
 
 .aboutme {
   position: relative;
+  @include tablet {
+    height: 100vh;
+  }
 }
 
 .techstack1 {
   height: 15vh;
   display: flex;
   @include tablet {
-    display: none;
   }
 }
 

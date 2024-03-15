@@ -39,19 +39,6 @@ const Techstack = () => {
               <Techcard techName="Git" techLogo={git} />
               <Techcard techName="Jira" techLogo={jira} />
               <Techcard techName="Vscode" techLogo={vscode} />
-              <Techcard techName="Javascript" techLogo={javascript} />
-              <Techcard techName="React" techLogo={react} />
-              <Techcard techName="Html" techLogo={html} />
-              <Techcard techName="Css" techLogo={css} />
-              <Techcard techName="Node.js" techLogo={node} />
-              <Techcard techName="Sass" techLogo={sass} />
-              <Techcard techName="BEM" techLogo={bem} />
-              <Techcard techName="Express.js" techLogo={express} />
-              <Techcard techName="MySQL" techLogo={mysql} />
-              <Techcard techName="Knex.js" techLogo={knex} />
-              <Techcard techName="Git" techLogo={git} />
-              <Techcard techName="Jira" techLogo={jira} />
-              <Techcard techName="Vscode" techLogo={vscode} />
             </ul>
           </Marquee>
         </div>
