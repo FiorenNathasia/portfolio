@@ -2,7 +2,7 @@ import "/src/components/sidebar/links/Links.scss";
 import { motion } from "framer-motion";
 import linkedin from "../../../assets/icons/linkedin.png";
 import github from "../../../assets/icons/github-logo.png";
-import resume from "../../../assets/FiorenNathasiaResume.pdf";
+import cv from "../../../assets/FiorenNathasiaCV.pdf";
 
 const variants = {
   open: {
@@ -62,7 +62,7 @@ const Links = () => {
         style={{ color: "inherit", textDecoration: "inherit" }}
       >
         <motion.a
-          href={resume}
+          href={cv}
           variants={itemVariants}
           target="_blank"
           rel="noopener noreferrer"
